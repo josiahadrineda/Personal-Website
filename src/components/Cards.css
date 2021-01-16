@@ -108,7 +108,7 @@
     text-align: center;
   }
 
-  @media only screen and (max-width: 1025px) {
+  @media only screen and (max-width: 724px) {
     .cards {
       position: relative;
       top: calc(1vh + 1vw);
@@ -138,7 +138,7 @@
     }
   }
 
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 724px) {
     .cards {
         display: flex;
         align-items: center;

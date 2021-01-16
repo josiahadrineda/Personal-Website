@@ -37,7 +37,7 @@
     margin-left: calc(1vh + 1vw);
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 724px) {
     .contact-info {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -46,7 +46,7 @@
     }
 }
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 724px) {
     .contact-info {
         display: flex;
         flex-flow: row;
