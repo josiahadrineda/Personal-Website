@@ -50,7 +50,7 @@
 }
 
 .nav-item {
-    height: 80px;
+    height: calc(4vh + 4vw);
     cursor: pointer;
 }
 
