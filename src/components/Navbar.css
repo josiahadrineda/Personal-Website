@@ -61,6 +61,7 @@
     align-items: center;
     text-decoration: none;
     height: calc(4vh + 4vw);
+    margin: 0 calc(0.5vh + 0.5vw);
 }
 
 .nav-anchors:hover {
