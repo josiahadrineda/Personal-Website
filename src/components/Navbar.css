@@ -57,15 +57,16 @@
 .nav-anchors {
     color: #fff;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
     height: calc(4vh + 4vw);
 }
 
 .nav-anchors:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
+    height: calc(4vh + 4vw);
 }
 
 .fa-bars {
@@ -114,29 +115,33 @@
     .nav-anchors {
         color: #fff;
         text-align: center;
-        padding: 2rem;
         width: 100%;
         display: table;
+        height: calc(4vh + 4vw);
     }
 
     .nav-anchors.white {
         color: #242424;
         text-align: center;
-        padding: 2rem;
         width: 100%;
         display: table;
+        height: calc(4vh + 4vw);
     }
 
     .nav-anchors:hover {
         background: #fff;
         color: #242424;
+        text-align: center;
         border-radius: 0;
+        height: calc(4vh + 4vw);
     }
 
     .nav-anchors.white:hover {
         background: #242424;
         color: #fff;
+        text-align: center;
         border-radius: 0;
+        height: calc(4vh + 4vw);
     }
 
     .menu-icon {

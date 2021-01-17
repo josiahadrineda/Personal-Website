@@ -23,19 +23,39 @@ function Navbar({bgColor}) {
                     </div>
                     <ul className={click ? "nav-menu active" + (bgColor === "black" ? " white" : "") : "nav-menu"}>
                         <li className="nav-item">
-                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#student", 50); return false}}>student</a>
+                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#student", 50); return false}}>
+                                <div className="nav-anchors-text">
+                                    student
+                                </div>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#developer", 50); return false}}>developer</a>
+                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#developer", 50); return false}}>
+                                <div className="nav-anchors-text">
+                                    developer
+                                </div>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#game creator", 50); return false}}>game creator</a>
+                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#game creator", 50); return false}}>
+                                <div className="nav-anchors-text">
+                                    game creator
+                                </div>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#composer", 50); return false}}>composer</a>
+                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#composer", 50); return false}}>
+                                <div className="nav-anchors-text">
+                                    composer
+                                </div>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#transcriber", 50); return false}}>transcriber</a>
+                            <a href="#" className={"nav-anchors" + (bgColor === "black" ? " white" : "")} onClick={() => {closeMobileMenu(); delay("#transcriber", 50); return false}}>
+                                <div className="nav-anchors-text">
+                                    transcriber
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
