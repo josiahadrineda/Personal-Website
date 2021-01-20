@@ -70,6 +70,14 @@
     height: calc(4vh + 4vw);
 }
 
+.nav-anchors-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
 .fa-bars {
     color: #fff;
 }

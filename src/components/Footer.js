@@ -5,11 +5,10 @@ function Footer() {
     return (
         <div className="footer-container">
             <div className="contact-info">
-                <h3 className="contact phone-number">(209) 914 - 9720</h3>
-                <h3 className="contact berkeley-email">jadrineda@berkeley.edu</h3>
                 <h3 className="contact tech-email">jnsa.tech@gmail.com</h3>
                 <h3 className="contact music-email">jnsa.music@gmail.com</h3>
             </div>
+            <small className="website-rights">JNSA © 2021</small>
             <div className="social-icons">
                 <a target="_blank" href="https://www.facebook.com/josiah.adrineda/" rel="noopener noreferrer" aria-label="Facebook" className="social-icon-link facebook">
                     <i className="fab fa-facebook-f"></i>

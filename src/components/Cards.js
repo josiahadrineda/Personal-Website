@@ -4,8 +4,9 @@ import './Cards.css'
 function Cards({ cardset }) {
     const renderCardsets = (cardset) => {
         const wrappedCardsets = []
-        for (const cardrow of cardset) {
-            wrappedCardsets.push(<ul className="cards__items">{cardrow}</ul>)
+        for (let i = 0; i < cardset.length; i++) {
+            let cardrow = cardset[i]
+            wrappedCardsets.push(<ul className="cards__items" key={i}>{cardrow}</ul>)
         }
         return wrappedCardsets
     }

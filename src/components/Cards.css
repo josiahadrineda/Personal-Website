@@ -96,19 +96,55 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 10px 30px;
+    padding: 10px 10px;
   }
     
   .cards__item__text {
     color: #252e48;
-    font-size: calc(1vh + 1vw);
+    font-size: calc(0.85vh + 0.85vw);
     line-height: calc(1.1vh + 1.1vw);
     width: 100%;
     height: 100%;
     text-align: center;
   }
 
-  @media only screen and (max-width: 724px) {
+  @media only screen and (max-width: 420px) {
+    .cards {
+      position: relative;
+      top: calc(1vh + 1vw);
+      left: 0;
+    }
+    
+    .cards__container {
+      display: flex;
+      flex-flow: column;
+    }
+
+    .cards__wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .cards__items {
+      display: flex;
+      flex-flow: row;
+      margin-bottom: 24px;
+      margin: 1vw 1vw;
+    }
+      
+    .cards__item {
+      display: flex;
+      flex: 1;
+      margin: -3vh -3vw;
+      border-radius: 10px;
+    }
+
+    .cards__item__link {
+      transform: scale(0.7);
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (orientation: portrait) {
     .cards {
       position: relative;
       top: calc(1vh + 1vw);
@@ -129,21 +165,55 @@
       display: flex;
     }
 
-    .cards__item {
-      margin: calc(5vw) calc(1vw);
-    }
-
     .cards__item__link {
       transform: scale(0.9);
     }
   }
 
-  @media only screen and (min-width: 724px) {
+  @media only screen and (min-width: 420px) and (max-height: 400px) and (orientation: landscape) {
+    .cards {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+      
+    .cards__container {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+      max-width: 1120px;
+      width: 100%;
+      height: 100%;
+    }
+      
+    .cards__wrapper {
+      display: flex;
+      flex-flow: row;
+      position: relative;
+      margin: 50px 0 45px;
+    }
+      
+    .cards__items {
+      display: flex;
+      flex-flow: row;
+      margin-bottom: 24px;
+      margin: -1vw 1vw;
+    }
+      
+    .cards__item {
+      display: flex;
+      flex: 1;
+      margin: -2rem 1rem;
+      border-radius: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 420px) and (min-height: 400px) and (orientation: landscape) {
     .cards {
         display: flex;
         align-items: center;
         position: relative;
-        padding: 2rem;
       }
         
       .cards__container {
@@ -153,6 +223,7 @@
         align-items: center;
         max-width: 1120px;
         width: 100%;
+        height: 100%;
       }
         
       .cards__wrapper {
@@ -166,7 +237,7 @@
         display: flex;
         flex-flow: row;
         margin-bottom: 24px;
-        margin: -1vw 1vw;
+        margin: 1vh 1vw;
       }
         
       .cards__item {
