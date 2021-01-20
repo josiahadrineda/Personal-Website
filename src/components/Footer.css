@@ -1,12 +1,12 @@
 .footer-container {
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: calc(3vh + 3vw);
+    height: calc(3vh + 2vw);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: calc(100vh - 3vh - 3vw);
+    top: calc(100vh - 3vh - 2vw);
     z-index: 999;
 }
 

@@ -4,7 +4,7 @@
 
 .navbar {
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: calc(4vh + 4vw);
+    height: calc(3.5vh + 3.5vw);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(4vh + 4vw);
+    height: calc(3.5vh + 3.5vw);
     max-width: 1500px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .nav-item {
-    height: calc(4vh + 4vw);
+    height: calc(3.5vh + 3.5vw);
     cursor: pointer;
 }
 
@@ -60,14 +60,14 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    height: calc(4vh + 4vw);
+    height: calc(3.5vh + 3.5vw);
     margin: 0 calc(0.5vh + 0.5vw);
 }
 
 .nav-anchors:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
-    height: calc(4vh + 4vw);
+    height: calc(3.5vh + 3.5vw);
 }
 
 .nav-anchors-text {
@@ -97,7 +97,7 @@
         width: 100%;
         height: 90vh;
         position: absolute;
-        top: calc(4vh + 4vw);
+        top: calc(3.5vh + 3.5vw);
         left: -110%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -126,7 +126,7 @@
         text-align: center;
         width: 100%;
         display: table;
-        height: calc(4vh + 4vw);
+        height: calc(3.5vh + 3.5vw);
     }
 
     .nav-anchors.white {
@@ -134,7 +134,7 @@
         text-align: center;
         width: 100%;
         display: table;
-        height: calc(4vh + 4vw);
+        height: calc(3.5vh + 3.5vw);
     }
 
     .nav-anchors:hover {
@@ -142,7 +142,7 @@
         color: #242424;
         text-align: center;
         border-radius: 0;
-        height: calc(4vh + 4vw);
+        height: calc(3.5vh + 3.5vw);
     }
 
     .nav-anchors.white:hover {
@@ -150,7 +150,7 @@
         color: #fff;
         text-align: center;
         border-radius: 0;
-        height: calc(4vh + 4vw);
+        height: calc(3.5vh + 3.5vw);
     }
 
     .menu-icon {

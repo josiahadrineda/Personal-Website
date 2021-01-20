@@ -48,7 +48,9 @@ const gameCreatorCardset = [
             text="A pixelated, sci-fi, rogue-like battle royale soon to be released on Steam!"
             label="Dungeonlite Duelers"
             path="https://www.youtube.com/watch?v=BvCkC4JqId8&ab_channel=PixelPerfectStudios"
-        />,
+        />
+    ],
+    [
         <CardItem 
             key="Secret Satan"
             src="images/game creator/secretsatan.png"
@@ -66,7 +68,9 @@ const composerCardset = [
             text="(Unreleased) Dungeonlite Duelers Soundtrack"
             label="Dungeonlite Duelers OST"
             path="https://drive.google.com/drive/folders/1HLdtismo0fRQQ56rmBM0zcTZj7dbns6_?usp=sharing"
-        />,
+        />
+    ],
+    [
         <CardItem 
             key="Christmas Time Is Here"
             src="images/composer/christmastimeishere.jpg"
@@ -82,14 +86,16 @@ const transcriberCardset = [
         <CardItem 
             key="Discovery of Gravitation"
             src="images/transcriber/gravityrush.jpg" 
-            text="Discovery of Gravitation by Kohei Tanaka" 
+            text="Discovery of Gravitation by Kohei Tanaka for Gravity Rush/Daze" 
             label="Gravity Rush/Daze" 
             path="https://www.youtube.com/watch?v=U7S4ZV7Mdkg&ab_channel=JosiahAdrineda"
-        />,
+        />
+    ],
+    [
         <CardItem 
             key="Fossil Falls"
             src="images/transcriber/supermarioodyssey.jpg" 
-            text="Fossil Falls (Cascade Kingdom) by Naoto Kubo" 
+            text="Fossil Falls (Cascade Kingdom) by Naoto Kubo for Super Mario Odyssey" 
             label="Super Mario Odyssey" 
             path="https://www.youtube.com/watch?v=Arvs8IBdTq0&ab_channel=JosiahAdrineda"
         />
