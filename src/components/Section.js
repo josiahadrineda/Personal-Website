@@ -3,8 +3,8 @@ import './Section.css'
 
 function Section({ title, subtitle, works, dark, id }) {
     return (
-        <div className={"section" + (dark ? "-dark" : "")}>
-            <div className="section-content" id={id}>
+        <div className={"section" + (dark ? "-dark" : "")} id={id}>
+            <div className="section-content">
                 <div className="section-info">
                     <h1 className="pretitle">I am a</h1>
                     <h1 className="title">{title}</h1>

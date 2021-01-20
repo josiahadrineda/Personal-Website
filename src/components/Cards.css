@@ -66,7 +66,7 @@
     margin-left: 10px;
     padding: 6px 8px;
     max-width: 100%;
-    font-size: calc(0.7vh + 0.7vw);
+    font-size: calc(1vh + 1vw);
     font-weight: 700;
     color: #fff;
     background-color: #1f98f4;
@@ -96,7 +96,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 10px;
+    padding: 15px 10px;
   }
     
   .cards__item__text {
@@ -129,18 +129,17 @@
       display: flex;
       flex-flow: row;
       margin-bottom: 24px;
-      margin: 1vw 1vw;
+      margin: -3vw 1vw;
     }
       
     .cards__item {
       display: flex;
       flex: 1;
-      margin: -3vh -3vw;
       border-radius: 10px;
     }
 
     .cards__item__link {
-      transform: scale(0.7);
+      transform: scale(0.8);
     }
   }
 
