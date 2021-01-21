@@ -47,7 +47,7 @@ const gameCreatorCardset = [
             src="images/game creator/dungeonliteduelers.png"
             text="A pixelated, sci-fi, rogue-like battle royale soon to be released on Steam!"
             label="Dungeonlite Duelers"
-            path="https://www.youtube.com/watch?v=BvCkC4JqId8&ab_channel=PixelPerfectStudios"
+            path="https://www.pixelperfect.games/dungeonliteduelers"
         />
     ],
     [
